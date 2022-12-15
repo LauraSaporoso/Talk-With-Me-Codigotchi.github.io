@@ -61,28 +61,23 @@ img {
     left: 56px;
     height: 120px;
     width: 120px;
-    background-image: url('images/static.png');
+    background-image: url('./images/static.png');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 .codigotchi-screen_dormi {
-    background-image: url('images/dormi.gif');
+    background-image: url('./images/dormi.gif');
 }
 
 .codigotchi-screen_mangia {
-    background-image: url('images/mangia.gif');
+    background-image: url('./images/mangia.gif');
 }
 
 .codigotchi-screen_balla {
-    background-image: url('images/balla.gif');
+    background-image: url('./images/balla.gif');
 }
-
-.commands {
-    /*  */
-}
-
 .commands ul {
     width: 100%;
     display: flex;
